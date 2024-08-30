@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 bg-amber-50">
+      <div className="grid grid-cols-1 md:grid-cols-4 bg-amber-50">
         <div className="pt-24 pl-20 text-5xl font-bold text-customGreen font-Caveat">
           <p>
             Why <br />
