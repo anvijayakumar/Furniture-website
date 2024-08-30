@@ -169,7 +169,7 @@ const Home = () => {
             Explore
           </button>
         </div>
-        <div className="grid grid-cols-4 m-10 gap-1">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 md:space-y-4 m-10 gap-1">
           <div className="bg-white rounded-2xl mx-8 w-60 h-[350px] relative">
             <img src={chair1} alt="image" className="absolute left-6 -top-40" />
             <div className="mt-52">
