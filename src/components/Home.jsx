@@ -113,8 +113,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-amber-50 p-32 flex">
-        <div className="w-3/1 flex">
+      <div className="bg-amber-50 p-20 flex flex-col md:flex-row">
+        <div className="w-full md:w-3/5 flex">
           <div>
             <img src={Dot} alt="img" className="w-40 h-40 relative -left-10" />
             <img
@@ -136,7 +136,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="m-10 w-1/3">
+        <div className="m-10 w-full md:w-1/3">
           <h3 className="pt-24 pl-0 text-4xl font-bold text-customGreen font-Caveat">
             WHO WE ARE
           </h3>
