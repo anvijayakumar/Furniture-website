@@ -449,31 +449,31 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex bg-amber-50 w-100% h-[600px]">
-        <div className="w-1/3">
-          <img src={c4} alt="" className="w-[400px] h-[500px] pt-16" />
+      <div className="md:flex flex-none lg:flex bg-amber-50 w-100% h-[500px] md:h-96 lg:w-100% lg:h-[600px]">
+        <div className="lg:w-1/3">
+          <img src={c4} alt="image" className="lg:w-[400px] lg:h-[500px] md:w-80 md:h-96 w-60 h-72 pt-16 pl-"/>
         </div>
-        <div className="w-2/3 pl-20 pt-52">
+        <div className="lg:w-2/3 md:pl-8 lg:pl-20 pl-20 pt-2 md:pt-36 lg:pt-52">
           <div className="flex">
             <img src={mail} alt="gmail logo" className="h-10 mr-3" />
             <p className="text-lg font-semibold pt-1">
               Subscribe to Newsletter
             </p>
           </div>
-          <form action="">
+          <form action="" >
             <input
               type="text"
               placeholder="Enter your name"
-              className="w-56 h-10 border-gray-850 border-2 border-solid rounded-lg pl-3 mr-5"
+              className="h-8 md:w-44 md:h-8 lg:w-64 lg:h-10 border-gray-850 border-2 border-solid rounded-lg pl-3 mr-5"
             />
             <input
               type="email"
               placeholder="Enter your e-mail"
-              className=" w-52 h-10 border-gray-850 border-2  rounded-lg pl-3"
+              className="h-8 md:w-44 md:h-8 lg:w-64 lg:h-10 border-gray-850 border-2  rounded-lg pl-3"
             />
             <button
               type="submit"
-              className="ml-5 p-1 w-11 bg-framecolor text-white rounded-md relative top-2"
+              className="ml-5 p-1 w-11 bg-framecolor text-white rounded-md relative lg:top-2 md:top-2 -top-3"
             >
               <img src={send} alt="" className="h-8 w-9" />
             </button>
