@@ -228,7 +228,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-amber-50 h-[750px]">
+      <div className="bg-amber-50 lg:h-[750px]">
         <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen font-Caveat">
           OUR PROCESS
         </h1>
@@ -236,9 +236,9 @@ const Home = () => {
           Make your home with our
           <br /> wood furniture
         </p>
-        <div className="grid grid-cols-3">
-          <div className="flex text-4xl my-28 ml-32 row-start-1 row-end-3 font-bold">
-            <p className="bg-clip-border p-6 bg-framecolor w-20 h-20"></p>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-row">
+          <div className="flex text-4xl my-10 lg:my-28 ml-32 row-start-1 row-end-3 font-bold">
+            <p className="bg-clip-border p-6 bg-framecolor w-20 h-20 "></p>
             <p className="gap-0 relative top-1 right-10">
               200+
               <br />
