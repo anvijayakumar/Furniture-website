@@ -127,16 +127,16 @@ const Home = () => {
             <img
               src={grid2}
               alt="#"
-              className=" rounded-lg w-48 h-44 ml-7 my-4 relative top-10"
+              className=" rounded-lg w-48 h-44 ml-7 my-4 relative md:top-10 top-20"
             />
             <img
               src={grid3}
               alt="#"
-              className=" rounded-lg w-100% h-100% relative -left-16 top-14"
+              className=" rounded-lg w-100% h-100% relative md:-left-16 md:top-14 right-20 top-5"
             />
           </div>
         </div>
-        <div className="m-10 w-full md:w-1/3">
+        <div className="ml-0 md:ml-20 lg:m-10 w-full md:w-1/3">
           <h3 className="pt-24 pl-0 text-4xl font-bold text-customGreen font-Caveat">
             WHO WE ARE
           </h3>
