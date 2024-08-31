@@ -35,12 +35,12 @@ const Home = () => {
       <div className="bg-hero h-screen w-full bg-cover bg-center font-copperplate text-white">
         <div>
           <h1 className="text-5xl pt-8 pl-8 font-Caveat">Furnicom</h1>
-          <ul className="flex gap-16 font-lexend justify-center relative bottom-8">
-            <li>Furniture</li>
+          <ul className="flex gap-3 md:gap-16 lg:gap-16 font-lexend justify-center relative md:-bottom-2 lg:bottom-8 -bottom-2">
+            <li>Home</li>
             <li>Shop</li>
             <li>About Us</li>
             <li>Contact</li>
-            <img src={bag} alt="icon" className="relative left-96" />
+            <img src={bag} alt="icon" className="relative left-5 lg:left-96 md:left-16" />
           </ul>
         </div>
         <div className="font-normal text-center pt-14 font-Caveat">
