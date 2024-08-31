@@ -246,13 +246,13 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <div className="flex relative right-24">
+            <div className="flex relative right-24 pl-14 md:pl-0 lg:pl-12">
               <img
                 src={dimond}
                 alt="image"
                 className="relative left-8 top-5 h-20 w-24"
               />
-              <p className="bg-clip-border bg-framecolor w-32 h-20"></p>
+              <p className="bg-clip-border bg-framecolor w-32 h-20 md:w-36 md:h-16"></p>
               <div className="font-lexend pl-8">
                 <p className="text-3xl ">
                   High <br />
@@ -266,13 +266,13 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <div className="flex relative right-28 pb-28 pl-22">
+            <div className="flex relative right-28 lg:pb-28 pl-16 md:pl-0 lg:pl-5">
               <img
                 src={hand1}
                 alt="image"
                 className="relative left-16 top-3 h-24 w-28"
               />
-              <p className="bg-clip-border bg-framecolor w-36 h-20"></p>
+              <p className="bg-clip-border bg-framecolor w-36 h-20 md:w-40 md:h-16"></p>
               <div className="font-lexend pl-10">
                 <p className="text-3xl ">Professional Technique</p>
                 <p>
@@ -283,14 +283,14 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <div className="flex relative right-24">
+            <div className="flex relative right-24 md:ml-20 pl-16 md:pl-0 lg:pl-0">
               <img
                 src={parquet}
                 alt="image"
                 className="relative left-10 top-5 h-20 w-20"
               />
-              <p className="bg-clip-border bg-framecolor w-40 h-20"></p>
-              <div className="font-lexend ml-8 px-4">
+              <p className="bg-clip-border bg-framecolor w-40 h-20 md:w-60 md:h-16"></p>
+              <div className="font-lexend ml-8 md:ml-3 md:px-1 px-4">
                 <p className="text-3xl ">
                   Variety of
                   <br /> Wood
@@ -303,13 +303,13 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <div className="flex relative right-24">
+            <div className="flex relative right-24 pl-16 md:pl-0 lg:pl-0">
               <img
                 src={pencil}
                 alt="image"
                 className="relative left-14 top-6 h-20 w-20"
               />
-              <p className="bg-clip-border bg-framecolor w-48 h-20"></p>
+              <p className="bg-clip-border bg-framecolor w-48 h-20 md:w-60 md:h-16"></p>
               <div className="font-lexend pl-8 ">
                 <p className="text-3xl pr-20">Custom Production</p>
                 <p>
