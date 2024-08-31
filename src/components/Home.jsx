@@ -34,8 +34,8 @@ const Home = () => {
     <section>
       <div className="bg-hero h-screen w-full bg-cover bg-center font-copperplate text-white">
         <div>
-          <h1 className="text-5xl pt-8 pl-8 font-Caveat">Furnicom</h1>
-          <ul className="flex gap-3 md:gap-16 lg:gap-16 font-lexend justify-center relative md:-bottom-2 lg:bottom-8 -bottom-2">
+          <h1 className="text-5xl pt-8 pl-8 font-Caveat relative top-6 md:top-0 lg:top-0">Furnicom</h1>
+          <ul className="flex gap-3 md:gap-16 lg:gap-16 font-lexend justify-center relative md:-bottom-2 lg:bottom-8 bottom-16">
             <li>Home</li>
             <li>Shop</li>
             <li>About Us</li>
