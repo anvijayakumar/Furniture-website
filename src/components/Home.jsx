@@ -228,7 +228,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-amber-50 lg:h-[750px]">
+       <div className="bg-amber-50 lg:h-[750px] md:h-[800px] h-[1100px]">
         <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen font-Caveat">
           OUR PROCESS
         </h1>
@@ -253,14 +253,14 @@ const Home = () => {
                 className="relative left-8 top-5 h-20 w-24"
               />
               <p className="bg-clip-border bg-framecolor w-32 h-20 md:w-36 md:h-16"></p>
-              <div className="font-lexend pl-8">
+              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
                 <p className="text-3xl ">
                   High <br />
                   Quality
                 </p>
-                <p>
+                <p className="pr-10 md:pr-0">
                   Teakwood is one of the hardest and most durable of all natural
-                  woods.{" "}
+                  woods.
                 </p>
               </div>
             </div>
@@ -273,9 +273,9 @@ const Home = () => {
                 className="relative left-16 top-3 h-24 w-28"
               />
               <p className="bg-clip-border bg-framecolor w-36 h-20 md:w-40 md:h-16"></p>
-              <div className="font-lexend pl-10">
+              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
                 <p className="text-3xl ">Professional Technique</p>
-                <p>
+                <p className="pr-10 md:pr-0">
                   Follow safety procedures and use appropriate saws for
                   different types of cuts.
                 </p>
@@ -290,12 +290,12 @@ const Home = () => {
                 className="relative left-10 top-5 h-20 w-20"
               />
               <p className="bg-clip-border bg-framecolor w-40 h-20 md:w-60 md:h-16"></p>
-              <div className="font-lexend ml-8 md:ml-3 md:px-1 px-4">
-                <p className="text-3xl ">
+              <div className="font-lexend ml-0 md:ml-0 md:px-1 pl-2 md:pl-6 lg:pl-6">
+                <p className="text-3xl">
                   Variety of
                   <br /> Wood
                 </p>
-                <p>
+                <p className="pr-3 md:pr-0">
                   Some common types of softwood trees include fir, redwood,
                   pine, cedar and spruce.
                 </p>
@@ -310,9 +310,9 @@ const Home = () => {
                 className="relative left-14 top-6 h-20 w-20"
               />
               <p className="bg-clip-border bg-framecolor w-48 h-20 md:w-60 md:h-16"></p>
-              <div className="font-lexend pl-8 ">
+              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
                 <p className="text-3xl pr-20">Custom Production</p>
-                <p>
+                <p className="pr-10 md:pr-0">
                   using wood fibres (mostly from Radiata Pine), Urea
                   Formaldehyde (UF) resin and a minute amount of paraffin wax.
                 </p>
