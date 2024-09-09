@@ -28,7 +28,7 @@ const footer = () => {
                   <p>All</p>
                 </div>
               </div>
-              <div className="text-xl tracking-wide md:mt-5 lg:m-10 pl-4 md:pl-0 lg:pl-0">
+              <div className="text-xl tracking-wide md:mt-5 lg:m-10 pl-2 md:pl-0 lg:pl-0">
                 <h3>Follow Us</h3>
                 <div className="text-xs pt-5 flex h-14 p-3">
                   <img src={fc} alt="facebook icon" className="invert" />
