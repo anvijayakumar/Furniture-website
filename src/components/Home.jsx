@@ -366,55 +366,61 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-amber-50 w-100% h-[500px]">
+      <div className="bg-amber-50 w-100% h-[650px] md:h-[500px] lg:h-[500px]">
         <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen text-center tracking-wide font-Caveat">
           PRODUCT CATEGORIES
         </h1>
-        <div className="flex p-10 m-10">
-          <p className="bg-custombg m-2 h-[120px] w-60 rounded-xl">
-            <img
-              src={c1}
-              alt="product-1"
-              className="h-40 w-24 relative left-2 bottom-4"
-            />
-          </p>
-          <div className="font-lexend px-5">
-            <p className="text-xl font-bold pb-3">Nordic Chair</p>
-            <p>
-              The Nordic chair combines the warmth of natural oak wood with a
-              minimalist and functional design.
+        <div className="flex p-10 m-10 overflow-x-scroll">
+          <div className="md:flex">
+            <p className="bg-custombg m-2 h-32 md:h-[120px] lg:h-[120px] w-60 rounded-xl">
+              <img
+                src={c1}
+                alt="product-1"
+                className="h-40 w-24 relative left-20 md:left-2 lg:left-2 bottom-4"
+              />
             </p>
-            <p className="font-bold text-sm py-1">Read more</p>
+            <div className="font-lexend px-5">
+              <p className="text-xl font-bold pb-3">Nordic Chair</p>
+              <p>
+                The Nordic chair combines the warmth of natural oak wood with a
+                minimalist and functional design.
+              </p>
+              <p className="font-bold text-sm py-1">Read more</p>
+            </div>
           </div>
-          <p className="bg-custombg m-2 h-[120px] w-64 rounded-xl">
-            <img
-              src={c2}
-              alt="product-2"
-              className="h-40 w-52 relative left-1 bottom-9"
-            />
-          </p>
-          <div className="font-lexend px-5">
-            <p className="text-xl font-bold pb-3">Kruzi Aero</p>
-            <p>
-              Kruzi Aero Classic Crystal Ghost Chair Wooden Legs Chair wood with
-              a minimalist.
+          <div className="md:flex">
+            <p className="bg-custombg m-2 h-32 md:h-[120px] lg:h-[120px] w-64 rounded-xl">
+              <img
+                src={c2}
+                alt="product-2"
+                className="h-40 w-52 relative left-10 md:left-1 lg:left-1 bottom-9"
+              />
             </p>
-            <p className="font-bold text-sm py-1">Read more</p>
+            <div className="font-lexend px-5">
+              <p className="text-xl font-bold pb-3">Kruzi Aero</p>
+              <p>
+                Kruzi Aero Classic Crystal Ghost Chair Wooden Legs Chair wood
+                with a minimalist.
+              </p>
+              <p className="font-bold text-sm py-1">Read more</p>
+            </div>
           </div>
-          <p className="bg-custombg m-2 h-[120px] w-60 rounded-xl">
-            <img
-              src={c3}
-              alt="product-3"
-              className="h-36 w-20 relative left-3 bottom-3"
-            />
-          </p>
-          <div className="font-lexend px-5">
-            <p className="text-xl font-bold pb-3">Ergonomic Chair</p>
-            <p>
-              An ergonomic chair is one that is built to support the human body
-              functional design.
+          <div className="md:flex">
+            <p className="bg-custombg m-2 h-32 md:h-[120px] lg:h-[120px] w-60 rounded-xl">
+              <img
+                src={c3}
+                alt="product-3"
+                className="h-36 w-20 relative left-20 md:left-3 lg:left-3 bottom-3"
+              />
             </p>
-            <p className="font-bold text-sm py-1">Read more</p>
+            <div className="font-lexend px-5">
+              <p className="text-xl font-bold pb-3">Ergonomic Chair</p>
+              <p>
+                An ergonomic chair is one that is built to support the human
+                body functional design.
+              </p>
+              <p className="font-bold text-sm py-1">Read more</p>
+            </div>
           </div>
         </div>
         <div className="bg-red text-black text-center font-semibold ">
