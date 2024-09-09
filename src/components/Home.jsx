@@ -44,7 +44,7 @@ const Home = () => {
           </ul>
         </div>
         <div className="font-normal text-center pt-14 font-Caveat">
-          <h3 className="text-5xl">
+          <h3 className="text-3xl md:text-5xl lg:text-5xl">
             ELEVATE YOUR HOME, <br />
             ELEVATE YOUR LIFESTYLE
           </h3>
