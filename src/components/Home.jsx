@@ -24,7 +24,6 @@ import c3 from "../assets/product-3.png";
 import c4 from "../assets/schair.png";
 import mail from "../assets/gmail.png";
 import send from "../assets/paper-plane.png";
-import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -425,7 +424,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Testimonials />
+    
 
       <div className="md:flex flex-none lg:flex bg-amber-50 w-100% h-[500px] md:h-96 lg:w-100% lg:h-[600px]">
         <div className="lg:w-1/3">
