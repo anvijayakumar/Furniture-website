@@ -5,6 +5,9 @@ import bed1 from "../assets/bed1.png";
 import bed2 from "../assets/bed2.png";
 import bed3 from "../assets/bed3.png";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const Testimonials = () => {
   const settings = {
