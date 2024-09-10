@@ -366,7 +366,7 @@ const Home = () => {
         <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen text-center tracking-wide font-Caveat">
           PRODUCT CATEGORIES
         </h1>
-        <div className="flex p-10 m-10 overflow-x-scroll">
+        <div className="flex p-10 m-10 overflow-x-scroll lg:overflow-clip md:overflow-x-scroll">
           <div className="md:flex">
             <p className="bg-custombg m-2 h-32 md:h-[120px] lg:h-[120px] w-60 rounded-xl">
               <img
