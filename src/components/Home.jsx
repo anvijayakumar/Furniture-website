@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import bag from "../assets/Bag.png";
 import search from "../assets/icons-search.png";
 import grid1 from "../assets/img-grid1.png";
@@ -22,12 +22,9 @@ import c1 from "../assets/product-1.png";
 import c2 from "../assets/product-2.png";
 import c3 from "../assets/product-3.png";
 import c4 from "../assets/schair.png";
-import group1 from "../assets/Group1.png";
-import group2 from "../assets/Group2.png";
-import group3 from "../assets/Group3.png";
-import review from "../assets/reviewimg.png";
 import mail from "../assets/gmail.png";
 import send from "../assets/paper-plane.png";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -428,32 +425,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-colorbg w-100% h-[720px] font-lexend text-center text-white p-4">
-        <p className="text-3xl tracking-wider pt-10 font-Caveat">
-          TESTIMONIALS
-        </p>
-        <p className="py-5">Our Client Reviews</p>
-        <div className="flex justify-center m-5 h-[450px]">
-          <img
-            src={review}
-            alt=""
-            className="w-12 h-12 relative left-[200px] top-[215px]"
-          />
-          <img src={group1} alt="" />
-          <img
-            src={review}
-            alt=""
-            className="w-12 h-12 relative left-[199px] top-[215px]"
-          />
-          <img src={group2} alt="" />
-          <img
-            src={review}
-            alt=""
-            className="w-12 h-12 relative left-52 top-[215px]"
-          />
-          <img src={group3} alt="" />
-        </div>
-      </div>
+      <Testimonials />
 
       <div className="md:flex flex-none lg:flex bg-amber-50 w-100% h-[500px] md:h-96 lg:w-100% lg:h-[600px]">
         <div className="lg:w-1/3">
