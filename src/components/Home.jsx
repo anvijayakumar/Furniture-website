@@ -111,47 +111,53 @@ const Home = () => {
 
        <Process/>
 
-      <div className="bg-colorbg text-white font-lexend flex h-60 w-100% p-6 px-16">
-        <img
+      <div className="bg-colorbg text-white font-lexend grid grid-cols-2 lg:grid-cols-3 h-80 md:h-80 lg:h-60 w-100% p-0 lg:p-6 md:px-0 lg:px-16 text-center md:text-left lg:text-left">
+        <div className="flex-none md:flex lg:flex">
+          <div>
+          <img
           src={clock}
           alt="Dispatch"
-          className="w-10 h-10 relative left-20 top-16"
-        />
-        <div className="p-16 text-sm pl-20 mx-5">
+          className="w-12 h-10 relative left-16 top-9 md:left-20 md:top-16 lg:left-20 lg:top-16"
+        /></div>
+        <div className="p-6 md:p-16 lg:p-16 text-sm pl-8 md:pl-20 pt-12 lg:pl-20 md:mx-5 lg:mx-5">
           <p>
             <span className="text-2xl">DISPATCH</span>
             <br /> We will dispatch your product within 2-3 weeks
           </p>
         </div>
+        </div>
+        <div className="flex-none md:flex lg:flex">
         <img
           src={truck}
           alt="Delivery"
-          className="w-16 h-16 relative top-12 left-12"
+          className="w-16 h-16 relative top-6 left-10 md:top-12 md:left-12 lg:top-12 lg:left-12"
         />
-        <div className="p-16 text-sm">
+        <div className=" pl-2 p-5 md:p-16 lg:p-16 text-sm">
           <p>
             <span className="text-2xl">DELIVERY</span>
             <br />
             We will deliver your products and take care of the installation
           </p>
         </div>
-        <div className="check w-10 h-10 font-white"></div>
+        </div>
+        <div className="flex">
         <img
           src={tick1}
           alt=""
-          className="relative w-5 h-4 left-[73px] top-20"
+          className="relative w-5 h-4 left-[73px] md:left-56 lg:left-[73px] top-9 md:top-4 lg:top-20"
         />
         <img
           src={tick}
           alt="Guarantee"
-          className="w-12 h-12 relative left-10 top-16"
+          className="w-12 h-12 relative left-10 md:left-48 lg:left-10 top-5 md:top-0 lg:top-16"
         />
-        <div className="p-16 text-sm">
+        <div className="pl-20 md:pl-60 lg:pl-20 p-3 md:p-0 lg:p-16 text-sm">
           <p>
             <span className="text-2xl">GUARANTEE</span>
             <br />
             We offer a guarantee on all our products
           </p>
+        </div>
         </div>
       </div>
 
