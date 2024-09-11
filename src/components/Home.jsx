@@ -1,4 +1,4 @@
-  import React from "react";
+import React from "react";
 import bag from "../assets/Bag.png";
 import search from "../assets/icons-search.png";
 import grid1 from "../assets/img-grid1.png";
@@ -6,14 +6,6 @@ import grid2 from "../assets/img-grid2.png";
 import grid3 from "../assets/img-grid3.svg";
 import vector from "../assets/Vector.png";
 import Dot from "../assets/Dot.png";
-import chair1 from "../assets/chair1.png";
-import chair2 from "../assets/chair2.png";
-import chair3 from "../assets/chair3.png";
-import chair4 from "../assets/chair4.png";
-import pencil from "../assets/pencil.png";
-import dimond from "../assets/dimond.png";
-import parquet from "../assets/parquet.png";
-import hand1 from "../assets/hand1.png";
 import tick from "../assets/tick.png";
 import tick1 from "../assets/tick1.png";
 import truck from "../assets/truck.png";
@@ -157,99 +149,7 @@ const Home = () => {
 
       <Products/>
 
-       <div className="bg-amber-50 lg:h-[750px] md:h-[800px] h-[1100px]">
-        <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen font-Caveat">
-          OUR PROCESS
-        </h1>
-        <p className="px-24 pb-14 pt-3 text-2xl font-lexend">
-          Make your home with our
-          <br /> wood furniture
-        </p>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-row">
-          <div className="flex text-4xl my-10 lg:my-28 ml-32 row-start-1 row-end-3 font-bold">
-            <p className="bg-clip-border p-6 bg-framecolor w-20 h-20 "></p>
-            <p className="gap-0 relative top-1 right-10">
-              200+
-              <br />
-              <span className="text-2xl relative -top-2">Project’s</span>
-            </p>
-          </div>
-          <div>
-            <div className="flex relative right-24 pl-14 md:pl-0 lg:pl-12">
-              <img
-                src={dimond}
-                alt="image"
-                className="relative left-8 top-5 h-20 w-24"
-              />
-              <p className="bg-clip-border bg-framecolor w-32 h-20 md:w-36 md:h-16"></p>
-              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
-                <p className="text-3xl ">
-                  High <br />
-                  Quality
-                </p>
-                <p className="pr-10 md:pr-0">
-                  Teakwood is one of the hardest and most durable of all natural
-                  woods.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex relative right-28 lg:pb-28 pl-16 md:pl-0 lg:pl-5">
-              <img
-                src={hand1}
-                alt="image"
-                className="relative left-16 top-3 h-24 w-28"
-              />
-              <p className="bg-clip-border bg-framecolor w-36 h-20 md:w-40 md:h-16"></p>
-              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
-                <p className="text-3xl ">Professional Technique</p>
-                <p className="pr-10 md:pr-0">
-                  Follow safety procedures and use appropriate saws for
-                  different types of cuts.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex relative right-24 md:ml-20 pl-16 md:pl-0 lg:pl-0">
-              <img
-                src={parquet}
-                alt="image"
-                className="relative left-10 top-5 h-20 w-20"
-              />
-              <p className="bg-clip-border bg-framecolor w-40 h-20 md:w-60 md:h-16"></p>
-              <div className="font-lexend ml-0 md:ml-0 md:px-1 pl-2 md:pl-6 lg:pl-6">
-                <p className="text-3xl">
-                  Variety of
-                  <br /> Wood
-                </p>
-                <p className="pr-3 md:pr-0">
-                  Some common types of softwood trees include fir, redwood,
-                  pine, cedar and spruce.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex relative right-24 pl-16 md:pl-0 lg:pl-0">
-              <img
-                src={pencil}
-                alt="image"
-                className="relative left-14 top-6 h-20 w-20"
-              />
-              <p className="bg-clip-border bg-framecolor w-48 h-20 md:w-60 md:h-16"></p>
-              <div className="font-lexend pl-2 md:pl-6 lg:pl-6">
-                <p className="text-3xl pr-20">Custom Production</p>
-                <p className="pr-10 md:pr-0">
-                  using wood fibres (mostly from Radiata Pine), Urea
-                  Formaldehyde (UF) resin and a minute amount of paraffin wax.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+       <Process/>
 
       <div className="bg-colorbg text-white font-lexend flex h-60 w-100% p-6 px-16">
         <img
