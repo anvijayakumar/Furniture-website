@@ -35,12 +35,12 @@ const footer = () => {
                   <p className="py-[8px]">Facebook</p>
                 </div>
                 <div className="text-xs flex h-14 p-4">
-                  <img src={twet} alt="twitter icon" className="invert" />
+                  <img src={twet} alt="twitter icon" className="invert p-0.5" />
                   <p className="py-[8px] pl-2">Twitter</p>
                 </div>
                 <div className="text-xs pt-3 flex h-14 p-4">
-                  <img src={insta} alt="instagram icon" className="invert" />
-                  <p className="py-[8px]">Instagram</p>
+                  <img src={insta} alt="instagram icon" className="invert p-0.5" />
+                  <p className="py-[8px] pl-2">Instagram</p>
                 </div>
               </div>
             </div>
