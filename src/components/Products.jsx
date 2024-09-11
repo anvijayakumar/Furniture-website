@@ -21,7 +21,7 @@ const Products = () => {
     Explore
   </button>
 </div>
-<div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 md:space-y-4 lg:space-y-0 m-0 md:m-10 lg:m-10 mt-5 md:mt-0 lg:mt-0">
+<div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 md:space-y-4 lg:space-y-0 m-0 md:m-10 lg:m-10 mt-7 md:mt-0 lg:mt-0">
   <div className="bg-white rounded-2xl mx-4 md:mx-8 lg:mx-8 w-40 md:w-60 lg:w-60 h-72 md:h-[350px] lg:h-[350px] relative">
     <img src={chair1} alt="image" className="absolute left-2 md:left-6 lg:left-6 -top-28 md:-top-40 lg:-top-40 w-40 h-60 md:w-80 md:h-96 lg:w-80 lg:h-96"/>
     <div className="mt-32 md:mt-52 lg:mt-52">
