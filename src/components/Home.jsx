@@ -17,6 +17,7 @@ import c4 from "../assets/schair.png";
 import mail from "../assets/gmail.png";
 import send from "../assets/paper-plane.png";
 
+import LuxuryDesign from "./LuxuryDesign";
 import Process from "./Process";
 import Products from "./Products";
 
@@ -104,48 +105,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-amber-50 p-20 flex flex-col md:flex-row">
-        <div className="w-full md:w-3/5 flex">
-          <div>
-            <img src={Dot} alt="img" className="w-40 h-40 relative -left-10" />
-            <img
-              src={grid1}
-              alt="#"
-              className="relative -top-28 left-0 right-24"
-            />
-          </div>
-          <div>
-            <img
-              src={grid2}
-              alt="#"
-              className=" rounded-lg w-48 h-44 ml-7 my-4 relative md:top-10 top-20"
-            />
-            <img
-              src={grid3}
-              alt="#"
-              className=" rounded-lg w-100% h-100% relative md:-left-16 md:top-14 right-20 top-5"
-            />
-          </div>
-        </div>
-        <div className="ml-0 md:ml-20 lg:m-10 w-full md:w-1/3">
-          <h3 className="pt-24 pl-0 text-4xl font-bold text-customGreen font-Caveat">
-            WHO WE ARE
-          </h3>
-          <h5 className="pt-10 pl-0 font-lexend text-2xl">
-            We provide you the <br />
-            best experience
-          </h5>
-          <p className="pt-6 pb-2.5 pl-0 font-lexend text-justify">
-            Because we was very serious about designing furniture for our
-            environment, using a very expensive and famous capital but at a
-            relatively low price
-          </p>
-          <a href="#" className="text-customGreen font-semibold">
-            More Info
-            <span className="arrow">--→</span>
-          </a>
-        </div>
-      </div>
+      <LuxuryDesign/>
 
       <Products/>
 
