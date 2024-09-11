@@ -25,6 +25,9 @@ import c4 from "../assets/schair.png";
 import mail from "../assets/gmail.png";
 import send from "../assets/paper-plane.png";
 
+import Process from "./Process";
+import Products from "./Products";
+
 const Home = () => {
   return (
     <section>
@@ -152,77 +155,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-colorbg">
-        <div className="p-20">
-          <h2 className="text-4xl font-Caveat font-normal tracking-wider text-amber-50">
-            <strong>F</strong>EATURED <strong>P</strong>RODUCT'S
-          </h2>
-          <p className="py-6 font-lexend text-3xl text-amber-50">
-            The best ever products from <br />
-            our craftsman
-          </p>
-          <button className="border-solid border-2 border-gray-300 text-lg bg-white rounded-3xl w-32">
-            Explore
-          </button>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 md:space-y-4 m-10 gap-1">
-          <div className="bg-white rounded-2xl mx-8 w-60 h-[350px] relative">
-            <img src={chair1} alt="image" className="absolute left-6 -top-40" />
-            <div className="mt-52">
-              <div className="pl-5">
-              <p>Chair</p>
-              <h3 className="font-lexend">Sakarias Armchair</h3>
-              <p className="text-amber-300">★★★★</p></div>
-              <div className="pt-5 flex justify-between items-center px-5">
-                <div>₹4999</div>
-                <div className="w-10 h-10 bg-black rounded-full text-white text-2xl flex justify-center items-center">+</div>
-              </div>
-            </div>
-          </div>
-          <div className="bg-white rounded-2xl mx-8 w-60 h-[350px] relative">
-            <img src={chair2} alt="image" className="absolute left-6 bottom-24" />
-            <div className="mt-52">
-              <div className="pl-5">
-              <p>Chair</p>
-              <h3 className="font-lexend">Baltsar Chair</h3>
-              <p className="text-amber-300">★★★</p></div>
-              <div className="pt-5 flex justify-between items-center px-5">
-                <div>₹5999</div>
-                <div className="w-10 h-10 bg-black rounded-full text-white text-2xl flex justify-center items-center">+</div>
-              </div>
-            </div>
-          </div>
-          <div className="bg-white rounded-2xl mx-8 w-60 h-[350px] relative">
-            <img src={chair3} alt="image" className="absolute left-6 -top-5" />
-            <div className="mt-52">
-              <div className="pl-5">
-              <p>Chair</p>
-              <h3 className="font-lexend">Anjay Chair</h3>
-              <p className="text-amber-300">★★★★★</p></div>
-              <div className="pt-5 flex justify-between items-center px-5">
-                <div>₹3999</div>
-                <div className="w-10 h-10 bg-black rounded-full text-white text-2xl flex justify-center items-center">+</div>
-              </div>
-            </div>
-          </div>
-          <div className="bg-white rounded-2xl mx-8 w-60 h-[350px] relative">
-            <img src={chair4} alt="image" className="absolute left-6 -top-12" />
-            <div className="mt-52">
-              <div className="pl-5">
-              <p>Chair</p>
-              <h3 className="font-lexend">Nyantuy Chair</h3>
-              <p className="text-amber-300">★★★★</p></div>
-              <div className="pt-5 flex justify-between items-center px-5">
-                <div>₹4799</div>
-                <div className="w-10 h-10 bg-black rounded-full text-white text-2xl flex justify-center items-center">+</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-red text-white text-center font-semibold p-10">
-          <a href="#">View All --→</a>
-        </div>
-      </div>
+      <Products/>
 
        <div className="bg-amber-50 lg:h-[750px] md:h-[800px] h-[1100px]">
         <h1 className="px-24 pt-20 text-3xl font-bold text-customGreen font-Caveat">
